@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+
+.search-container{
+
+    background-image: linear-gradient(rgba(64,153,255,0.5), rgba(64,153,255,0.5)), url("Search.jpg");
+    height: 830px;
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+
+}
+
+.search-content-container{
+    height: 830px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poiret One";
+}
+
+.search-content{
+
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.search-title{
+    color: white;
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.search-description{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+.search-form{
+  font-family: "Poiret One";
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right:10px;
+  background-color: white;
+  height: 20px;
+  width: 130px;
+
+}
+
+.search-button{
+    font-family: "Poiret One";
+    font-size: 16px;
+    font-weight: bold;
+    height: 25px;
+    width:  90px;
+    border-radius: 5px;
+    color: white;
+    background-color: lightslategray;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in;
+
+}
+
+.search-button:hover{
+    transform: scale(1.05);
+    background-color: rgb(64,153,255) ;
+    color: darkslategray;
+    /*box-shadow: inset 0 0 0 2px #3071A9;*/
+}
+
+
+.search-button-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-radius: 5px;
+
+}
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 50%;
+    margin-right: 20px;
+}
